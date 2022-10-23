@@ -11,6 +11,7 @@ disable=C0114,  # missing-module-docstring
         E0401,  # Import-error
         W3101,  # missing-timeout
         R0903,  # too-few-public-methods
+        
 good-names = db,id,QTDE
 
 [FORMAT]
