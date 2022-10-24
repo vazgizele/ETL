@@ -10,8 +10,3 @@ def test_request_from_page(requests_mock):
     assert 'html' in request_response
     assert request_response["status_code"] == 200
     assert request_response["html"] == response_context
-   
-
-
-
-   
