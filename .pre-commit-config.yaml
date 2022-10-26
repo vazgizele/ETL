@@ -1,9 +1,9 @@
 repos:
   - repo: local
     hooks:
-      - id: pylint
-        name: pylint
-        entry: pylint
+      - id: pylint src
+        name: pylint src
+        entry: pylint src
         language: system
         types: [python]
         args:
